@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
              break;
             case R.id.action_buscar:
                 Log.i("ActionBar", "Buscar!");;
-                newFragment = new NewFragment();
+                newFragment = new SearchFragment();
              break;
             case R.id.action_settings:
                 Log.i("ActionBar", "Settings!");;
